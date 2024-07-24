@@ -27,4 +27,6 @@ titles[4].replaceWith(titleTwo);
 
 titles[1].textContent = 'This и прототипы объектов';
 
+document.querySelector('.ads').remove();
+
 console.log(titleTwo, titleThree, titleFive, titleSix);
